@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#stopwatch-container {
+    text-align: center;
+    border: 3px dotted black;
+}
+
+#display {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+#stopwatch-container {
+    text-align: center;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+#display {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #333333; /* Dark text color */
+}
+
+button {
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green button color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+
+}
+
+body{
+    background: radial-gradient(circle, #48bfe3, #5e60ce);
+}
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+#stopwatch-container {
+    text-align: center;
+    background: #d8f3dc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff; /* Set text color to white for better contrast */
+}
+h1{
+    color:darkblue;
+    font-family: monospace;
+    border:solid 3px  black;
+    border-radius: 20px;
+    border-block: 1px dotted black;
+}
